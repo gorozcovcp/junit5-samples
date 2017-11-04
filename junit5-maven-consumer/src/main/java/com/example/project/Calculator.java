@@ -13,7 +13,8 @@ package com.example.project;
 public class Calculator {
 
 	public int add(int a, int b) {
-		return a + b;
+		long c = a + b;
+		return c;
 		//return ;
 	}
 
